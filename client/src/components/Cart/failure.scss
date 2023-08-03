@@ -1,0 +1,26 @@
+.success-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+  background-color: #EDEADE;
+  margin-top:20px;
+  max-width: 800px; 
+  margin: auto;
+  border-radius: 40px;
+
+  h1 {
+    font-size: 36px;
+    margin-bottom: 140px;
+    color: #28a745;
+    
+  }
+  
+  p {
+    font-size: 20px;
+    color: #333;
+    gap: 100px;
+    margin-bottom: 20px;
+  }
+}

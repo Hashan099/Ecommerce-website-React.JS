@@ -1,0 +1,36 @@
+.featuredProducts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  background-color: #EDEADE;
+
+  .top {
+    display: flex;
+    align-items: center;
+
+    h1 {
+      flex: 2;
+      text-transform: capitalize;
+    }
+
+    p {
+      flex: 3;
+      color: gray;
+      text-align: justify;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      margin-right: 50px;
+    }
+  }
+
+  .bottom {
+    display: flex;
+    justify-content: flex-start;
+    gap: 50px;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+
+  }
+}
